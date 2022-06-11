@@ -1,0 +1,13 @@
+version: '3'
+services:
+  edit-db:
+    image: sogis/oereb-db:2
+    environment:
+      POSTGRES_DB: edit
+      POSTGRES_PASSWORD: mysecretpassword
+      POSTGRES_HOST_AUTH_METHOD: md5
+      PG_WRITE_PWD: ddluser
+      PG_READ_PWD: dmluser
+      PG_GRETL_PWD: gretl
+    ports:
+      - "54321:5432"

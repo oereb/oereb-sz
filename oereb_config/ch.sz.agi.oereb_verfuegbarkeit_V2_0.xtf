@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TRANSFER xmlns="http://www.interlis.ch/INTERLIS2.3">
+  <HEADERSECTION SENDER="ili2pg-4.3.2-70c2c19de9928155e48437dedb68f5eef82896a7" VERSION="2.3">
+    <MODELS>
+      <MODEL NAME="InternationalCodes_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="Localisation_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="LocalisationCH_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="Dictionaries_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="DictionariesCH_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="CHAdminCodes_V1" VERSION="2018-02-19" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="AdministrativeUnits_V1" VERSION="2020-08-25" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="AdministrativeUnitsCH_V1" VERSION="2020-04-24" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="OeREBKRM_V2_0" VERSION="2021-04-14" URI="https://models.geo.admin.ch/V_D/OeREB/"/>
+      <MODEL NAME="OeREBKRMkvs_V2_0" VERSION="2021-10-21" URI="https://models.geo.admin.ch/V_D/OeREB/"/>
+    </MODELS>
+  </HEADERSECTION>
+  <DATASECTION>
+    <OeREBKRMkvs_V2_0.Konfiguration BID="ch.sz.agi.konfiguration.oereb.verfuegbarkeit">
+      <OeREBKRMkvs_V2_0.Konfiguration.GemeindeMitOeREBK TID="499">
+        <Gemeinde>1372</Gemeinde>
+        <Themen>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.Sicherheitszonenplan</Thema>
+          </OeREBKRM_V2_0.ThemaRef>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.ProjektierungszonenNationalstrassen</Thema>
+          </OeREBKRM_V2_0.ThemaRef>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.BaulinienNationalstrassen</Thema>
+          </OeREBKRM_V2_0.ThemaRef>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.ProjektierungszonenEisenbahnanlagen</Thema>
+          </OeREBKRM_V2_0.ThemaRef>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.BaulinienEisenbahnanlagen</Thema>
+          </OeREBKRM_V2_0.ThemaRef>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.ProjektierungszonenFlughafenanlagen</Thema>
+          </OeREBKRM_V2_0.ThemaRef>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.BaulinienFlughafenanlagen</Thema>
+          </OeREBKRM_V2_0.ThemaRef>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.BelasteteStandorte</Thema>
+          </OeREBKRM_V2_0.ThemaRef>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.BelasteteStandorteZivileFlugplaetze</Thema>
+          </OeREBKRM_V2_0.ThemaRef>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.BelasteteStandorteOeffentlicherVerkehr</Thema>
+          </OeREBKRM_V2_0.ThemaRef>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.BelasteteStandorteMilitaer</Thema>
+          </OeREBKRM_V2_0.ThemaRef>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.ProjektierungszonenStarkstromanlagen</Thema>
+          </OeREBKRM_V2_0.ThemaRef>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.BaulinienStarkstromanlagen</Thema>
+          </OeREBKRM_V2_0.ThemaRef>
+        </Themen>
+        <GrundlagedatenStand>2022-05-26T22:28:15.597</GrundlagedatenStand>
+        <BezeichnungUntereinheitGrundbuch>Grundbuch</BezeichnungUntereinheitGrundbuch>
+      </OeREBKRMkvs_V2_0.Konfiguration.GemeindeMitOeREBK>
+    </OeREBKRMkvs_V2_0.Konfiguration>
+  </DATASECTION>
+</TRANSFER>

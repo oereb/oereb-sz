@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TRANSFER xmlns="http://www.interlis.ch/INTERLIS2.3">
+  <HEADERSECTION SENDER="ili2pg-4.3.2-70c2c19de9928155e48437dedb68f5eef82896a7" VERSION="2.3">
+    <MODELS>
+      <MODEL NAME="InternationalCodes_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="Localisation_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="LocalisationCH_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="Dictionaries_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="DictionariesCH_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="CHAdminCodes_V1" VERSION="2018-02-19" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="AdministrativeUnits_V1" VERSION="2020-08-25" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="AdministrativeUnitsCH_V1" VERSION="2020-04-24" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="OeREBKRM_V2_0" VERSION="2021-04-14" URI="https://models.geo.admin.ch/V_D/OeREB/"/>
+    </MODELS>
+  </HEADERSECTION>
+  <DATASECTION>
+    <OeREBKRM_V2_0.Amt BID="ch.sz.agi.konfiguration.oereb.zustaendigestellen">
+      <OeREBKRM_V2_0.Amt.Amt TID="ch.sz.agi">
+        <Name>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Amt für Geoinformation</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Name>
+        <AmtImWeb>
+          <OeREBKRM_V2_0.MultilingualUri>
+            <LocalisedText>
+              <OeREBKRM_V2_0.LocalisedUri>
+                <Language>de</Language>
+                <Text>https://sz.ch/agi</Text>
+              </OeREBKRM_V2_0.LocalisedUri>
+            </LocalisedText>
+          </OeREBKRM_V2_0.MultilingualUri>
+        </AmtImWeb>
+        <Strasse>Bahnhofstrasse</Strasse>
+        <Hausnr>16</Hausnr>
+        <PLZ>6430</PLZ>
+        <Ort>Schwyz</Ort>
+      </OeREBKRM_V2_0.Amt.Amt>
+
+      <OeREBKRM_V2_0.Amt.Amt TID="ch.sz.afu">
+        <Name>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Amt für Umwelt und Energie</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Name>
+        <AmtImWeb>
+          <OeREBKRM_V2_0.MultilingualUri>
+            <LocalisedText>
+              <OeREBKRM_V2_0.LocalisedUri>
+                <Language>de</Language>
+                <Text>https://sz.ch/afu</Text>
+              </OeREBKRM_V2_0.LocalisedUri>
+            </LocalisedText>
+          </OeREBKRM_V2_0.MultilingualUri>
+        </AmtImWeb>
+        <Strasse>Kollegiumstrasse</Strasse>
+        <Hausnr>28</Hausnr>
+        <PLZ>6431</PLZ>
+        <Ort>Schwyz</Ort>
+      </OeREBKRM_V2_0.Amt.Amt>
+
+      <OeREBKRM_V2_0.Amt.Amt TID="ch.sz.sk">
+        <Name>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Staatskanzlei</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Name>
+        <AmtImWeb>
+          <OeREBKRM_V2_0.MultilingualUri>
+            <LocalisedText>
+              <OeREBKRM_V2_0.LocalisedUri>
+                <Language>de</Language>
+                <Text>https://www.sz.ch/behoerden/staatskanzlei-departemente/staatskanzlei/staatskanzlei.html/72-416-387-4328-1574</Text>
+              </OeREBKRM_V2_0.LocalisedUri>
+            </LocalisedText>
+          </OeREBKRM_V2_0.MultilingualUri>
+        </AmtImWeb>
+        <Strasse>Bahnhofstrasse</Strasse>
+        <Hausnr>9</Hausnr>
+        <PLZ>6431</PLZ>
+        <Ort>Schwyz</Ort>
+      </OeREBKRM_V2_0.Amt.Amt>
+
+    </OeREBKRM_V2_0.Amt>
+  </DATASECTION>
+</TRANSFER>
